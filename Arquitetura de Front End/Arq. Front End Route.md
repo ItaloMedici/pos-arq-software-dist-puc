@@ -1,10 +1,15 @@
 Fundamentos de arquitetura de sistemas web. Componentes de front end. Estratégias, técnicas e tecnologias. Abordagens arquiteturais: Micro frontends; Single Page Applications (SPA); Responsividade. Progressive Web Apps (PWA); Serverless Computing. Aplicações server-side rendering (SSR); Web Assembly. Frameworks para construção de front end. Segurança no Front End. Experimentação da arquitetura.
 
+> [!Nota]
+>  "Arquitetura é a organização fundamental de um sistema, compreendido pelos seus componentes, o relacionamento entre eles e os princípios que direcionam seu projeto e sua evolução."
+
 # Unidades
 
 ## Unidade 1
-
-
+[[1. Perfil profissional]]
+[[2. Ambiente]]
+[[3. Frameworks e ecossistema]]
+[[4. Arquitetura Single Page Application (SPA)]]
 ## **Bibliografia** 
 
 ### HTML, CSS & Javascript:
@@ -34,3 +39,7 @@ Fundamentos de arquitetura de sistemas web. Componentes de front end. Estratégi
 
 #### Segurança
 - OWASP Top Ten: [https://owasp.org/www-project-top-ten/](https://owasp.org/www-project-top-ten/)
+
+
+### Roadmap
+* Roadmap frontend: https://roadmap.sh/frontend
