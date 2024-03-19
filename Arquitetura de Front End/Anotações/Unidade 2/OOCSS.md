@@ -13,7 +13,7 @@ Opera na idea de modularização e reutilização do código através da separa�
     width: 100px;
 }
 
-/* Visual */
+/* Visual (Skin) */
 .box-red {
     background-color: red;
 }
@@ -28,6 +28,17 @@ Opera na idea de modularização e reutilização do código através da separa�
 ```
 
 Dessa forma, podemos utilizar a estrutura `box` com diferentes visuais;
+#### Estrutura
+* `width`
+* `height`
+* `padding`
+* `margins`
+* `overflow`
+#### Skin
+* `color`
+* `background`
+* `font`
+* `shadow`
 ### Independência entre container e conteúdo
 Opera na ideia de quebrar a dependência do elemento com seu container. Exemplo:
 

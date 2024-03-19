@@ -1,3 +1,4 @@
+#css
 Cascading Style Sheet (AKA CSS). É uma linguagem declarativa que concentra as regras visuais de um documento [[HTML]]. Temos três opções para aplicar as regras de CSS: 
 #### Arquivo externo
 Essa abordagem necessita de um arquivo próprio para o CSS, e deve ser ligado ao documento através da tag `link`:

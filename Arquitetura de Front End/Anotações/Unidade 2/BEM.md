@@ -48,3 +48,8 @@ Utilizado como uma flag para um bloco, dando significado de estado e comportamen
 </button>
 ```
 
+### Características
+* Convenção ja definida para nomenclatura de classes
+* Visão clara de estilos para elementos filhos; 👍🏻
+* Visão clara de estados 👍🏻
+* Nome de classes muito grandes 👎🏻 

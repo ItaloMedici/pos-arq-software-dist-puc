@@ -6,10 +6,16 @@ Fundamentos de arquitetura de sistemas web. Componentes de front end. Estratégi
 # Unidades
 
 ## Unidade 1
-[[1. Perfil profissional]]
-[[2. Ambiente]]
-[[3. Frameworks e ecossistema]]
-[[4. Arquitetura Single Page Application (SPA)]]
+[[Perfil profissional]]
+[[Ambiente]]
+[[Frameworks e ecossistema]]
+[[Arquitetura Single Page Application (SPA)]]
+
+### Unidade 2
+[[Arquitetura CSS]]
+[[Blundlers]]
+[[Arquitetura modular]]
+
 ## **Bibliografia** 
 
 ### HTML, CSS & Javascript:
