@@ -16,6 +16,11 @@ Fundamentos de arquitetura de sistemas web. Componentes de front end. Estratégi
 [[Blundlers]]
 [[Arquitetura modular]]
 
+### Unidade 3
+[[Arquitetura de Micro front-ends]]
+[[Arquitetura baseada em monorepos]]
+[[Aplicações baseadas em  server-side rendering]]
+
 ## **Bibliografia** 
 
 ### HTML, CSS & Javascript:
