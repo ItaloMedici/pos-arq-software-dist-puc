@@ -21,6 +21,12 @@ Fundamentos de arquitetura de sistemas web. Componentes de front end. Estratégi
 [[Arquitetura baseada em monorepos]]
 [[Aplicações baseadas em  server-side rendering]]
 
+### Unidade 4
+- [[Serverless Computing]]
+- [[Aplicações PWA]]
+- [[Web Assembly]]
+- [[Fundamentos de segurança em frontend]]
+
 ## **Bibliografia** 
 
 ### HTML, CSS & Javascript:
