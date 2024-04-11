@@ -20,7 +20,10 @@ Principais Soluções de SaaS: Front End, Back End, Opções de middleware para 
 ### **Unidade II** – Arquiteturas para implementação de projetos em nuvem
 [[Containers]]
 [[Arquitetura Orientada a Serviços (SOA)]]
-[[Edge Computing]]
+[[Edge Computing]] 
+[[DevOps]]
+[[Micro Services]]
+[[Cloud Native]]
 
 ### **Unidade III –** Conectividade e segurança em ambientes em nuvem
 
