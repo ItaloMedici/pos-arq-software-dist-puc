@@ -1,4 +1,4 @@
-Aspectos da Computação em Nuvem, conceitos, tipos, utilização e fornecedores. Componentes de infraestrutura em nuvem (regiões, zonas de disponibilidade).Desenho de soluções de IaaS de acordo com cenários apresentados, abordando aspectos de elasticidade, balanceamento de carga, alta disponibilidade, DEVOPS, cenários multi-cloud e cloud híbrida: Interconexão entre nuvens públicas e nuvens privadas.   
+ Aspectos da Computação em Nuvem, conceitos, tipos, utilização e fornecedores. Componentes de infraestrutura em nuvem (regiões, zonas de disponibilidade).Desenho de soluções de IaaS de acordo com cenários apresentados, abordando aspectos de elasticidade, balanceamento de carga, alta disponibilidade, DEVOPS, cenários multi-cloud e cloud híbrida: Interconexão entre nuvens públicas e nuvens privadas.   
 Principais Soluções de SaaS: Front End, Back End, Opções de middleware para troca de informações entre aplicações e PaaS - Banco de Dados e Serverless.  Segurança.  Estratégias de migração de aplicações para provedores de computação em nuvem: Definição de critérios de seleção para migração de aplicações. Avaliação de viabilidade técnica e financeira (FINOPS).
 
 ## Unidades
@@ -26,6 +26,8 @@ Principais Soluções de SaaS: Front End, Back End, Opções de middleware para 
 [[Cloud Native]]
 
 ### **Unidade III –** Conectividade e segurança em ambientes em nuvem
+[[Controles e Métricas de Rede]]
+[[Migrando Soluções para Cloud]]
 
 ### **Unidade IV –** Estratégias para migração de soluções para nuvem
 
