@@ -21,6 +21,7 @@
 ## Next.js: SSR + React
 
 * Aplicação é pre-rederizada no servidor, somente pela primeira vez;
+* Após renderizada no server é hidratada no client (adicionando event-handlers e referencias)
 * Navegação subsequentes utilizam o "efeito SPA"
 * Melhor desempenho em mecanismos de busca
 * Possibilidade de usar todos os conceitos de componentização presentes no React
