@@ -1,4 +1,4 @@
-#security
+#security #segurança
 
 ## Boas práticas
 * **OWASP (Open Web Application Security Project):** Organização sem fins lucrativos referência em segurança mundialmente reconhecida por disseminar sobre segurança em projetos web
