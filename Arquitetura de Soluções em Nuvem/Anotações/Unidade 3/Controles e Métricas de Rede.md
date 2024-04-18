@@ -2,7 +2,7 @@ Internetworks: é o modelo de interconexão de redes de longa distância - Inter
 
 Backbones da internet são estrategicamente interconectadas por roteadores principais que conectam as redes multinacionais do mundo.
 
-São estabelecidas e implantadas por ISPs que possuem os mecanismos para gerenciar o tráfego.
+São estabelecidas e implantadas por ISPs (Internet Service Provider) que possuem os mecanismos para gerenciar o tráfego.
 
 ## Níveis de ISP
 

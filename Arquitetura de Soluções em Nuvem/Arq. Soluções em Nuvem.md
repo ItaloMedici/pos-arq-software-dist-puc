@@ -29,6 +29,9 @@ Principais Soluções de SaaS: Front End, Back End, Opções de middleware para 
 [[Controles e Métricas de Rede]]
 [[Migrando Soluções para Cloud]]
 [[Segurança em Ambientes de Nuvem]]
+[[Ameaças em Ambientes de Cloud]]
+[[Componentes Cloud de Segurança]]
+[[Aplicação da Segurança na Arquitetura]]
 
 ### **Unidade IV –** Estratégias para migração de soluções para nuvem
 
