@@ -35,6 +35,9 @@ Principais Soluções de SaaS: Front End, Back End, Opções de middleware para 
 
 ### **Unidade IV –** Estratégias para migração de soluções para nuvem
 
+[[Modelos de Rs]]
+[[FinOps]]
+
 
 ## **Bibliografia Básica**
 
