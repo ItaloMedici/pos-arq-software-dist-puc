@@ -7,6 +7,9 @@ Em uma analogia com um sistema de tratamento de esgotos, um sistema implementado
 > [!Info]
 > O tipo de processamento executado por um _filter_ inclui gerar, filtrar, transformar (inclusive enriquecendo), agregar e dar finalidade a dados.
 
+Filters: lêem dados, executam algum tipo de processamento específico, e escrevem os resultados.
+Pipes: Conectam dois filters, recebendo input e escrevendo
+
 
 AWS Lambda
 
