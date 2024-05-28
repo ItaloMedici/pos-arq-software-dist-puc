@@ -6,7 +6,7 @@ O desenvolvimento paralelo traz na maioria das vezes a maior eficiência no proc
 
 Os micro serviços são facilitadores de CI/CD e mudam as seguintes características:
 
-* Arquitetura modular descentralizada que caracteriza as implementações baseadas em nuvem que encoraja a adoção de [[containers]].
+* Arquitetura modular descentralizada que caracteriza as implementações baseadas em nuvem que encoraja a adoção de [[Containers]].
   
 * Os containers fornecem um meio de empacotar aplicativos de forma que eles sejam abstraídos de seus ambientes de run-time.
   
