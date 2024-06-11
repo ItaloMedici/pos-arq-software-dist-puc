@@ -1,0 +1,61 @@
+### Variables
+@v1 =  http://localhost:8080/api/v1
+@v2 =  http://localhost:8080/api/v2
+
+# V1
+
+### All products
+GET {{v1}}/products
+
+### Get product
+GET {{v1}}/products/1
+
+### Create prodcut
+POST {{v1}}/products 
+Content-Type: application/json
+
+{
+  "name": "Macbook",
+  "price": 13000
+}
+
+### Delete product
+DELETE {{v1}}/products/9
+
+### Update product
+PUT {{v1}}/products/1
+Content-Type: application/json
+
+{
+  "name": "New name",
+  "price": 10
+}
+
+# V2
+
+###### All products
+GET {{v2}}/products
+
+### Get product
+GET {{v2}}/products/1
+
+### Create prodcut
+POST {{v2}}/products 
+Content-Type: application/json
+
+{
+  "name": "Macbook Air",
+  "price": 13000
+}
+
+### Delete product
+DELETE {{v2}}/products/3
+
+### Update product
+PUT {{v2}}/products/8
+Content-Type: application/json
+
+{
+  "name": "New name",
+  "price": 10
+}
