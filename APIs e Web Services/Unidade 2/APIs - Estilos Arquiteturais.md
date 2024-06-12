@@ -1,0 +1,7 @@
+- [[SOAP]]
+- [[REST]]
+- [[GraphQL]]\
+- [[RPC]]
+- [[Web Socket]]
+- [[WebHook]]
+- [[Comparativo estilos arquiteturais de APIs]]
