@@ -4,6 +4,8 @@ Um recurso é uma entidade da regra de negócio que pode ser identificada, nomea
 
 As APIs REST expõe dados como recursos e usam métodos HTTP padrão para representar transações como Criar, Ler, Atualizar e Excluir (CRUD) contra esses recursos.
 
+![[Pasted image 20240611205322.png]]
+
 ## Uso de métodos HTTP
 
 Métodos HTTP como `GET`, `POST`, `UPDATE` e `DELETE` informam o servidor sobre a ação a ser realizada.
@@ -42,3 +44,8 @@ As APIs REST podem de devolver respostas JSON ou XML. Devido à sua simplicidade
 O XML e outros formatos ainda podem ser suportados para facilitar a adoção de clientes que ja estão trabalhando com esses formatos usando APIS semelhantes.
 
 No Brasil, o XML é comum em APIs do governo, como NFe ou E-social
+
+## Casos de uso | Exemplos
+- APIs de mídia social, onde os clientes acessam dados de usuário e publicações.
+- APIs de serviço da Web.
+	- Ex: GitHub Rest API

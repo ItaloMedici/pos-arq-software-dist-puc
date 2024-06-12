@@ -4,6 +4,8 @@ Web Socket é um protocolo usado para estabelecer um canal de comunicação de s
 
 Embora o protocolo seja geralmente usado entre um cliente web e um servidor, às vezes é usado também para comunicação servidor-servidor.
 
+![[Pasted image 20240611210124.png]]
+
 > [!tip] 
 > Diferente dos demais, o websocket abre uma conexão única TCP, enquanto Rest e outros sempre precisam abrir uma conexão para cada request. 
 
@@ -23,3 +25,9 @@ Além disso, eles são projetados para trabalhar sobre a porta 80 ou 443, permit
 WebSockets são ótimos para dados rápidos e para transmissão ao vivo se possuir conexões de longa duração
 
 Deve ter cuidado ao utilizado com conexões móveis ou regiões de má qualidade de conectividade. Isso porque os clientes devem manter a conexão vida. Se a conexão morrer, o cliente irá precisar reiniciá-la.
+
+## Casos de uso | Exemplos
+
+- Aplicativos de chat em tempo real
+- Plataforma de jogos online com funcionalidade multiplayer
+- Placar de jogos

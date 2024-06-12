@@ -2,6 +2,8 @@
 
 GraphQL permite que os clientes definam a estrutura de dados necessários e que o servidor retorna exatamente essa estrutura.
 
+![[Pasted image 20240611205439.png]]
+
 ## Vantagens
 
 As APIs REST e RPC muitas vezes acabam respondendo com dados que clientes podem nunca utilizar.
@@ -25,3 +27,7 @@ Com as APIs REST e RPC, é mais difícil descobrir quais clientes estão usando 
 Projeto do servidor GraphQL pode ser complexo para esquemas de dados muito complexos.
 
 Custo do processamento de operações complexas de atualizações (Mutations) pode ser um problema na escalabilidade do servidor. 
+
+## Casos de uso | Exemplos
+
+- Aplicações com diferentes clientes requerendo de diferentes conjuntos de dados

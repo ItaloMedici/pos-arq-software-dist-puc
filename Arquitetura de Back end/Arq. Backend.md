@@ -30,7 +30,7 @@
 - [[RPC]]
 - [[GraphQL]]
 - [[Web Socket]]
-- [[RPC vs WebSocket x GraphQL x REST]]
+- [[Comparativo estilos arquiteturais de APIs]]
 
 ### Atividades
 [[Exercício Unidade 3]]
