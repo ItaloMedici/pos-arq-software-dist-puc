@@ -33,3 +33,16 @@ Permitem a diversidade de tecnologia, pois cada microsserviço pode ser desenvol
 
 ## Evolução
 ![[Pasted image 20240410225749.png]]
+
+## Microsserviços vs Monolito
+
+
+| Aspecto         | Monolito                                                               | Microsserviços                                                             |
+| --------------- | ---------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| Deployment      | Deploy simples e rápido do sistema inteiro                             | Requer recursos distintos tornando a orquestração mais complexa            |
+| Escalabilidade  | Difícil de manter e aplicar mudanças.                                  | Cada elemento pode ser escalado independente sem downtime                  |
+| Agilidade       | Dificuldade de adotar novas tecnologias                                | Adota novas tecnologias resolvendo problemas de negócios                   |
+| Resiliência     | Um erro pode afetar o sistema inteiro                                  | Uma falha em um serviço não afeta os demais                                |
+| Teste           | Teste fim a fim                                                        | Componentes requerem testes individuais                                    |
+| Segurança       | Comunicação dentro de uma<br><br>unidade única                         | Comunicação interprocessos requer<br><br>API gateways e maior complexidade |
+| Desenvolvimento | Dificuldade de distribuir os esforços dos times em função da estrutura | Os times podem trabalhar de forma independente em cada componente          |

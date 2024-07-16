@@ -1,11 +1,17 @@
 SOA não é um produto, não é uma solução, nem uma tecnologia.
 
+Estilo de Arquitetura de software cujo princípio fundamental está baseado em funcionalidades implementadas por aplicação e disponibilidade na forma de serviços. 
+
 Não pode ser reduzido a produtos de software e, finalmente, não deve ser utilizado em todos os desafios tecnológicos submetidos aos negócios de hoje.
+
+Estilo Arquitetural de software basedo na estruturação das aplicações de negócios por meio de um conjunto de serviços.
+
+Cada serviço provê uma funcionalidade específica do negócio e permite a criação de aplicações distribuídas utilizando diferentes tecnologias e plataformas.
 
 > [!Orientação à seriços]
 > "É um paradigma de desenvolvimento de sistemas que permite acesso a diversas informações disponíveis em computadores ligados na internet."
 
-SOA é um paradigma para organmizar e usar competências distribuídas que podem estar sob controle de domínios diferentes. 
+SOA é um paradigma para organizar e usar competências distribuídas que podem estar sob controle de domínios diferentes. 
 
 Ou seja, é uma forma de organizarmos os serviços que estão distribuídos dentro da organização.
 
@@ -22,8 +28,7 @@ Toda a conversa é feita através de mensagens
 ## Tecnologias Envolvidas - Protocolos
 
 [[SOAP]] - Protocolo Simples de Acesso a Objetos e é recomendado para instituições com padrões rígidos e ambientes complexos.
-
-[[WSDL]] - Descrição em formado XML de um Web Service que utilizará SOAP
+- WSDL - Descrição em formado XML de um Web Service que utilizará SOAP
 
 [[REST]] - Protocolo de Comunicação baseado no protocolo de hipermídia HTTP. Sendo o mais simples de implementar e atende a alto volume de chamadas e complexidade sem dificuldade.
 
