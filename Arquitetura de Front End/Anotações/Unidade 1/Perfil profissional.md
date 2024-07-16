@@ -8,14 +8,14 @@ Um profissional deve entender em qual contexto que esta aplicado, visualizando a
 O profissional deve entender e atuar diversas partes do processo de desenvolvimento. Na camada sistemas, podemos pontuar:
 #### Abordagens arquiteturais
 * Multi page
-* Single Page Application (SPA)
-* PWA
-* Serverless Computing
-* Micro Frontends
+* [[Arquitetura Single Page Application (SPA)]]
+* [[Aplicações PWA]]
+* [[Serverless Computing]]
+* [[Arquitetura de Micro front-ends]]
 #### Ambiente de desenvolvimento
 * Frameworks
 * Gerenciadores de dependências 
-* Bundlers
+* [[Blundlers]]
 #### Processo de desenvolvimento
 * Testes
 * CI/CD
@@ -41,8 +41,8 @@ Esta camada se encontra mais próxima do desenvolvimento, onde o profissional de
 * Especificações ES7
 
 #### Segurança e Infraestrutura
-* Open Authorization (OAuth)
-* Cross-origin (CORS)
+* Open Authorization ([[OAuth]])
+* Cross-origin ([[CORS]])
 * Cross-site Scripting (XSS)
 
 #### Otimização no Front-end
