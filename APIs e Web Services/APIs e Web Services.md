@@ -9,3 +9,13 @@
 [[MIME]]
 [[Padrões de Documentação de APIs]]
 [[JSON Schema]]
+
+### Unidade 3
+[[CORS]]
+[[Open Authorization - OAuth]]
+[[JSON Web Token (JWT)]]
+[[Segurança Web]]
+
+## Unidade 4
+[[Versionamento de APIS]]
+[[Estratégia API First]]
