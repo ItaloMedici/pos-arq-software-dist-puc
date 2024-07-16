@@ -42,6 +42,10 @@ Cada estilo de integração possui vantagens e desvantagens que se alinham de ma
 | Formato da Mensagem                   | Resultado codificado no padrão SOAP                            | Resultado facilmente interpretado por um humano        |
 | Compatibilidade com<br><br>Javascript | Complexa                                                       | Simplificada                                           |
 | Desempenho                            | Médio                                                          | Alto                                                   |
+- SOAP é um protocolo, REST é uma arquitetura (usa protocolo existente)
+- SOAP expõe comportamento, REST expõe dados
+- SOAP é mais pesado e complexo que REST
+
 ### Requisição SOAP
 
 ```xml

@@ -22,6 +22,14 @@ Ao fazer ananálise de log, um provedor de API pode descobrir queis clientes est
 
 Com as APIs REST e RPC, é mais difícil descobrir quais clientes estão usando um campo preterido, dificultando a remoção.
 
+Resumo:
+- Endpoint único ao invés de diversas entradas como o padrão REST
+- Independente de linguagem, protocolo ou framework
+- Maior controle do cliente via linguagem de conulta (Graph Query Language)
+- Acabar com o Overfetching e o Underfetching
+- Redução do traffego de dados e o número de requisições
+- Reduz a necessidade de manutenções de uma API
+
 ## Desvantagens
 
 Projeto do servidor GraphQL pode ser complexo para esquemas de dados muito complexos.
@@ -31,3 +39,107 @@ Custo do processamento de operações complexas de atualizações (Mutations) po
 ## Casos de uso | Exemplos
 
 - Aplicações com diferentes clientes requerendo de diferentes conjuntos de dados
+
+## Conceitos Importantes
+
+### Schemas
+
+Especificação de uma API GraphQL, escrita em uma linguagem denominada Schema Definition Language (SDL)
+
+Estabelece os tipos de dados possíveis de serem em uma API baseada em GraphQL.
+
+Define as operações de consulta (Queries) e alterações (Mutations) disponíveis no serviço que oferece a API GraphQL
+
+```GraphQL
+type User {
+	id: ID!
+	name: String!
+	email: String!
+}
+
+type Query {
+	getUser(id: ID): User
+	getAllUsers: [User]
+}
+
+type Mutation {
+	createUser(name: String!, email: String!): User
+	updateUser(id: ID!, name: String, email: String): User
+	deleteUser(id: ID!): ID
+}
+```
+
+### Tipo Objeto
+
+`Type` define um objeto, o elemento básico do Schema GraphQL
+
+### Tipos escalares
+
+- `String`: Propriedade baseada em texto (UTF-8)\
+- `Integer`: Propriedades numéricas
+- `Float`: Para propriedades numéricas com uma parte decimal
+- `Boolean`: Para propriedades binárias de um objeto (true ou false)
+- `Unic Identifiers (ID)`: Descreve um identificador único para o objeto. São serializadas com strings, porém possuem tratamento diferenciado.
+
+### Tipos enumerados
+
+Tipo especial restrito a um conjunto particular de valores
+
+```
+enum Status {
+	ACTIVE,
+	INACTIVE
+}
+```
+### Listas
+
+Definidas por meio do modificador de colchetes \[ e ]
+
+### Tipo Query
+
+Operações disponíveis em uma API GraphQL que permitem obter dados do servidor
+
+```
+type Query {
+	getUser(id: ID): User
+	getAllUsers: [User]
+}
+```
+
+### Mutation
+
+Operações disponíveis em uma API GraphQL que permitem modificar os dados no servidor e recuperar os dados modificados.
+
+```
+type Mutation {
+	createUser(name: String!, email: String!): User
+	updateUser(id: ID!, name: String, email: String): User
+	deleteUser(id: ID!): ID
+}
+```
+
+### Resolvers
+
+Funções que implementam a lógica por traz das queries e mutations definidas no Schema de um serviço.
+
+Cada campo no Schema, deve ter um resolver correspondente que implementa o que é necessário para buscar os dados ou executar ações relacionadas.
+
+```js
+const resolvers = {
+	Query: {
+		getAllUsers: () => users,
+		getUser: (_, { id }) => users.find(user => user.id === id),
+	},
+	Mutation: {
+		createUser: (_, { name, email, password }) => {
+			const user = { id: genID(), name, email, password }
+			users.push(user)
+			return user
+		}
+	}
+}
+```
+
+## Arquitetura
+
+![[Pasted image 20240617212130.png]]

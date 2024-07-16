@@ -2,7 +2,7 @@ Transferência de Estado Representacional (REST) é um paradigma baseado no conc
 
 Um recurso é uma entidade da regra de negócio que pode ser identificada, nomeada ou tratada na web. 
 
-As APIs REST expõe dados como recursos e usam métodos HTTP padrão para representar transações como Criar, Ler, Atualizar e Excluir (CRUD) contra esses recursos.
+As APIs REST expõe dados como recursos e usam métodos do [[Protocolo HTTP]] padrão para representar transações como Criar, Ler, Atualizar e Excluir (CRUD) contra esses recursos.
 
 ![[Pasted image 20240611205322.png]]
 
@@ -49,3 +49,15 @@ No Brasil, o XML é comum em APIs do governo, como NFe ou E-social
 - APIs de mídia social, onde os clientes acessam dados de usuário e publicações.
 - APIs de serviço da Web.
 	- Ex: GitHub Rest API
+
+## Princípios de Design
+
+### Definição do protocolo HTTP
+
+Utilizar os métodos HTTP de maneira clara do seu propósito semântico.
+
+- `GET`: Recuperar recurso (SELECT)
+- `POST`: Criar recurso (INSERT)
+- `PUT` | `PATCH`: Alterar recurso (UPDATE)
+- `DELETE`: Deletar recurso (DELETE)
+- `OPTIONS`: Lista as operações de um recurso
