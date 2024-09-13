@@ -4,11 +4,15 @@ Surgem então os containers: implementam na nuvem aplicativos executáveis únic
 
 Com o crescimento da utilização de containers, a demanda dos profissionais com este conhecimento é enorme.
 
-A arquitetura padrão de um ambiente de <mark class="hltr-yellow">container precisa de um run-time</mark> e o mais famoso do mercado é o ***Docker***.
+A arquitetura padrão de um ambiente de <mark class="hltr-yellow">container precisa de um run-time</mark> e o mais famoso do mercado é o ***[[Docker]]***.
 
 <mark class="hltr-yellow">Containers precisam ser orquestrados</mark> e a ferramenta padrão de orquestração é o ***kubernetes*** (K8's) 
 
 IaC geralmente é escrito em YAML
+
+* São um método de virtualização em nível de sistema operacional que permite executar uma aplicação e suas dependências como processos e com recursos isolados que simulam uma máquina virtual
+* Permitem empacotar facilmente o código, as configurações e as dependências de uma aplicação em elementos fundamentais que oferecem consistência ambiental, eficiência operacional, produtividade de desenvolvedores e controle de versões.
+
 
 ## Vantagens
 
@@ -22,8 +26,7 @@ Economizo mais que na virtualização que precisa de uma pilha completa para o f
 
 *Open Container Initiative* (**OCI**) é o projeto que cuida de toda a especificação e padronização dos containers
 
-Quem viabilizou isto tudo é o <mark class="hltr-yellow">Docker, que é apenas um produto</mark>
-, ou seja *dockerização* do ambiente é uma tendencia
+Quem viabilizou isto tudo é o [[Docker]], que é apenas um produto, ou seja *dockerização* do ambiente é uma tendencia
 
 A principal <mark class="hltr-yellow">vantagem  do Docker é possuir um vasto respositório de imagens</mark> gerenciadas online.
 

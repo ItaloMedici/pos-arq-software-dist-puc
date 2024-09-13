@@ -24,7 +24,7 @@ O esforço maior é identificar quais são estas aplicações e os responsáveis
 
 ## RELOCATE
 
-Com o avanço da tecnologia de virtualização e de containers, criou-se uma nova estratégia, de recolocação das aplicações. Esta estratégia está ligada a identificar características mínimas de compatibilidade de aplicações entre ambientes Docker e virtuais.
+Com o avanço da tecnologia de virtualização e de containers, criou-se uma nova estratégia, de recolocação das aplicações. Esta estratégia está ligada a identificar características mínimas de compatibilidade de aplicações entre ambientes [[Docker]] e virtuais.
 
 Essa estratégia é comumente confundida com a Rehost em alguns casos, porém vale ressaltar que <mark class="hltr-yellow">a ideia é levar a aplicação para dentro do container </mark>e automatizar o máximo que podemos com tecnologias como o K8's.
 
