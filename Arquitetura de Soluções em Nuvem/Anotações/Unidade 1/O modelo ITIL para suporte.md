@@ -6,3 +6,4 @@ O sistema de valor de serviço ITIL descreve como todos os componentes e ativida
 ## Pontos importantes
 
 * Acordo de nível de serviço **(ANS)**, é um documento formal assinado entre o cliente e o provedor de serviços e geralmente consta no contrato a disponibilidade forncedida.
+![[Pasted image 20250108204423.png]]

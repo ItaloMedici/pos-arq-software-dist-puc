@@ -1,0 +1,1 @@
+Permite o monitoramento de métricas, logs e traces de aplicações. Também conta com recursos de alerta, análise e tendência e integração com outras ferramentas populares.  

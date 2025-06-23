@@ -15,3 +15,12 @@
 * Aplicações web e APIs em getal
 * Processamentos de dados em tempo real
 * Backend de IoT
+
+## Quais problemas resolve
+
+* Sem gerenciamento de servidores
+* Deploy agilizado
+* Event Driven
+* Escalabilidade flexível
+* Pay as you Go
+* Encurtamento do TTM
